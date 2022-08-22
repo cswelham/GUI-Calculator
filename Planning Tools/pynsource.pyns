@@ -1,0 +1,7 @@
+# PynSource Version 1.1
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin.'}
+{'type':'umlshape', 'id':'Calculator', 'x':250, 'y':180, 'width':120, 'height':205, 'attrs':'labelFont|text|numList', 'meths':'__init__|buttonPress|tutorial|history|information|exitCalc'}
+{'type':'umlshape', 'id':'Logic', 'x':514, 'y':10, 'width':114, 'height':237, 'attrs':'equationList|equationAns|text|possibleKeys|equationList2|equationList3', 'meths':'textUpdate|keyPress|cancelNumber|clearNumber|error'}
+{'type':'umlshape', 'id':'Entry', 'x':10, 'y':353, 'width':65, 'height':31, 'attrs':'', 'meths':''}
+{'type':'edge', 'id':'Logic_to_Calculator', 'source':'Logic', 'target':'Calculator', 'uml_edge_type':'generalisation'}
+{'type':'edge', 'id':'Entry_to_Calculator', 'source':'Entry', 'target':'Calculator', 'uml_edge_type':'composition'}
